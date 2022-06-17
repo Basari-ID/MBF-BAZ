@@ -501,7 +501,7 @@ def tipsx():
 def setting():
 	wl = '# ID SEQUENCE SETTINGS'
 	sol().print(mark(wl, style='red'))
-	teks = '[01] CRACK DARI AKUN TERTUA\n[02] CRACK DARI AKUN TERMUDA\n[03] CRACK RANDOM ID'
+	teks = '[01] CRACK DARI AKUN TERTUA\n[02] CRACK DARI AKUN TERMUDA\n[03] CRACK RANDOM ID (Disarankan)'
 	tak = nel(teks, style='red')
 	cetak(nel(tak, title=' • SETTING • '))
 	hu = input(x+'['+p+'f'+x+'] Pilih : ')
@@ -528,7 +528,7 @@ def setting():
 		exit()
 	met = '# PILIH CRACK METHOD'
 	sol().print(mark(met, style='red'))
-	ioz = '[01] METHOD M-FACEBOOK\n[02] METHOD FREE-FACEBOOK\n[03] METHOD TOUCH-FACEBOOK\n[04] METHOD MBASIC-FACEBOOK'
+	ioz = '[01] METHOD M-FACEBOOK (Disarankan)\n[02] METHOD FREE-FACEBOOK\n[03] METHOD TOUCH-FACEBOOK\n[04] METHOD MBASIC-FACEBOOK'
 	gess = nel(ioz, style='red')
 	cetak(nel(gess, title=' • METHOD • '))
 	hc = input(x+'['+p+'f'+x+']  : ')
@@ -542,14 +542,14 @@ def setting():
 		method.append('mbasic')
 	else:
 		method.append('mobile')
-	guw = '# TAMPILKAN APLIKASI TERKAIT ? (y/t)'
+	guw = '# TAMPILKAN APLIKASI TERKAIT (Tidak Disarankan) (y/t)'
 	sol().print(mark(guw, style='red'))
 	aplik = input(x+'['+p+'f'+x+'] Pilih : ')
 	if aplik in ['y','Y']:
 		taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
-	guw = '# TAMPILKAN OPSI CHECKPOINT ? (y/t)'
+	guw = '# TAMPILKAN OPSI CHECKPOINT (Tidak Disarankan) (y/t)'
 	sol().print(mark(guw, style='red'))
 	osk = input(x+'['+p+'f'+x+'] Pilih : ')
 	if osk in ['y','Y']:
