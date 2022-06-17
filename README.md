@@ -20,3 +20,13 @@ $ git pull
 
 
 $ python run.py
+
+
+
+
+•Login Via Cookie•
+
+
+
+
+•Disarankan Jangan Tampilkan Opsi Check Point•
