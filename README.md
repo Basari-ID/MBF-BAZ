@@ -1,25 +1,25 @@
-# FACEBOOK CRACK - MBF-BAZ
-$ git clone https://github.com/Basari-ID/MBF-BAZ
+# FACEBOOK CRACK - MBF
+• $ git clone https://github.com/Basari-ID/MBF-BAZ
 
 
 
 
-$ ls
+• $ ls
 
 
 
 
-$ cd MBF-BAZ
+• $ cd MBF-BAZ
 
 
 
 
-$ git pull
+• $ git pull
 
 
 
 
-$ python run.py
+• $ python baz.py
 
 
 
